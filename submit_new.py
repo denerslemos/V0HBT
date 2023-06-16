@@ -9,7 +9,7 @@ Nmix = 20 #number of events to mix (default: 20)
 vzmix = 2.0 #vz matching in mixing (default: 2.0)
 method = 3 #mother removal (default: 3 - remove based on V0chi2; 0 - remove both; 1 - remove randomly; 2 - remove based on mass; >3 - do not remove any mother)
 syst = 0 #systematic source (default: 1 - tight V0; 2 - loose V0; 9 - misid+; 10 - misid-; 14 - z vertex between |[3,15]|; 15 - zvertex [-3,3]; 16 - 1.5 sigma peak ; 17 - 2.5 sigma peak; 18 - 3.5 sideband; 19 - 4.5 sideband; 23 - PU pileUpFilter_pPb8TeV_Gplus; 24 - PU pileUpFilter_pPb8TeV_vtx1;)
-submit_jobs = False #true it submit jobs, false it just make the files (good for testing)
+submit_jobs = True #true it submit jobs, false it just make the files (good for testing)
 
 folders = ['MB1','MB2','MB3','MB4','MB5','MB6','MB7','MB8','HM0120','HM0150','HM1','HM2','HM3','HM4','HM5','HM6','HM7','Pbp/HM0120','Pbp/HM0150','Pbp/HM1','Pbp/HM2','Pbp/HM3','Pbp/HM4','Pbp/HM5','Pbp/HM6','Pbp/HM7','Pbp/MB1','Pbp/MB2','Pbp/MB3','Pbp/MB4','Pbp/MB5','Pbp/MB6','Pbp/MB7','Pbp/MB8','Pbp/MB9','Pbp/MB10','Pbp/MB11','Pbp/MB12','Pbp/MB13','Pbp/MB14','Pbp/MB15','Pbp/MB16','Pbp/MB17','Pbp/MB18','Pbp/MB19','Pbp/MB20']
 
