@@ -21,3 +21,9 @@ Submit jobs:
 python submit_new.py
 ```
 
+After jobs are done, we merge all histograms using HADD (example for V0loose):
+```
+hadd Merged_V0HBT_AAAAA.root V0loose/*.root Pbp/V0loose/*.root 
+```
+where ```AAAAA``` corresponds to the systematics. We will need make sure to clean up the folder after merging histograms are big.
+
