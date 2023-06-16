@@ -15,12 +15,12 @@ folders = ['MB1','MB2','MB3','MB4','MB5','MB6','MB7','MB8','HM0120','HM0150','HM
 
 os.system('chmod 777 executable.exe')
 for i in folders:
-	os.chdir('/afs/cern.ch/work/d/ddesouza/ana/'+i)
+	os.chdir(str(V0home)+'/'+i)
 	os.system('mkdir -p V0tight V0loose V0nhit3 V0pix0 V0dcaplus V0dcaplusminus V0misplus V0misminus V0miseeplus V0miseeminus V0rhoplus V0zvxt3to15 V0zvxt3 V0sigmapeakminus V0sigmapeakplus V0sigmasideplus V0sigmasideminus V0epos V0hijing V0ampt V0Gplus V0vtx1 V0noPU')
 	os.system('rm V0std/* V0tight/* V0loose/* V0nhit3/* V0pix0/* V0dcaplus/* V0dcaplusminus/* V0misplus/* V0misminus/* V0miseeplus/* V0miseeminus/* V0rhoplus/* V0zvxt3to15/* V0zvxt3/* V0sigmapeakminus/* V0sigmapeakplus/* V0sigmasideplus/* V0sigmasideminus/* V0epos/* V0hijing/* V0ampt/* V0Gplus/* V0vtx1/* V0noPU/*')
 
 	os.system('rm run*.py *.sub *.cc *.exe cond/*')
-        os.system('cp /afs/cern.ch/work/d/ddesouza/ana/executable.exe .')
+        os.system('cp '+str(V0home)+'/executable.exe .')
 
 	ff = open('test_y.sh', "w")
 	shellfile = '''#!/bin/bash
