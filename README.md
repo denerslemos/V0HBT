@@ -9,7 +9,7 @@ cmsenv
 ```
 Download: 
 ```
-git clone git@github.com:denerslemos/V0HBT.git
+git clone https://github.com/denerslemos/V0HBT.git
 ```
 Compile:
 ```
