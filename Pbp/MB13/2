@@ -1,0 +1,13 @@
+universe   = vanilla
+getenv     = True
+executable = test_y.sh
++JobFlavour           = "workday"
+requirements = (OpSysAndVer =?= "CentOS7")
+RequestCpus = 2
+
+log        = cond/test.2.MB.log
+output     = cond/test.2.MB.out
+error      = cond/test.2.MB.err
+arguments = 2
+queue
+   

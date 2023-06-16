@@ -1,0 +1,6 @@
+hadd Target file: h_data_NHit3.root
+hadd compression setting for all ouput: 1
+hadd Source file 1: HM0120/V0nhit3/*.root
+Error in <TFile::TFile>: file HM0120/V0nhit3/*.root does not exist
+Error in <TFileMerger::AddFile>: cannot open file HM0120/V0nhit3/*.root
+hadd exiting due to error in HM0120/V0nhit3/*.root
