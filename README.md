@@ -3,6 +3,9 @@
 V0 HBT in pPb at 8 TeV
 Setup CMSSW (work inside of CMSSW80X):
 ```
+ssh -XY user@lxplus.cern.ch
+export SCRAM_ARCH=slc7_amd64_gcc530
+voms-proxy-init -voms cms
 cmsrel CMSSW_8_0_24
 cd CMSSW_8_0_24/src
 cmsenv
@@ -16,7 +19,7 @@ Compile:
 cd V0HBT
 g++ hbtV0.C hbt.h `root-config --libs` `root-config --cflags` -o executable.exe
 ```
-Submit jobs:
+Submit jobs (first edit the script "submit_new.py" to have your desired configuration and folders, see GDoc: https://docs.google.com/document/d/1E7WP24n_zG8nXQ49bEcL2uHEr0VMtwb29931xo5AEiA/edit):
 ```
 python submit_new.py
 ```
