@@ -5,6 +5,7 @@ Setup CMSSW (work inside of CMSSW80X):
 ```
 ssh -XY user@lxplus.cern.ch
 export SCRAM_ARCH=slc7_amd64_gcc530
+voms-proxy-init -voms cms
 cmsrel CMSSW_8_0_24
 cd CMSSW_8_0_24/src
 cmsenv
