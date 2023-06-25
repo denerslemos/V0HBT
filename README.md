@@ -18,7 +18,7 @@ Compile:
 cd V0HBT
 g++ hbtV0.C hbt.h `root-config --libs` `root-config --cflags` -o executable.exe
 ```
-Submit jobs:
+Submit jobs (first edit the script "submit_new.py" to have your desired configuration, see GDoc: https://docs.google.com/document/d/1E7WP24n_zG8nXQ49bEcL2uHEr0VMtwb29931xo5AEiA/edit):
 ```
 python submit_new.py
 ```
