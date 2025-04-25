@@ -3,10 +3,8 @@
 V0 HBT in pPb at 8 TeV
 Setup CMSSW (work inside of CMSSW80X):
 ```
-cmssw-el7
-export SCRAM_ARCH=slc7_amd64_gcc530
-cmsrel CMSSW_8_0_24
-cd CMSSW_8_0_24/src
+cmsrel CMSSW_13_0_5
+cd CMSSW_13_0_5/src/
 cmsenv
 ```
 Download: 
