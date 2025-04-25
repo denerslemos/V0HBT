@@ -457,7 +457,7 @@ nhitss = 4;
 syst = "V0sigmasideminus";
 } else if (p==20){//EPOS eff corr
 TString effile;
-effile = "/afs/cern.ch/work/d/ddesouza/Eff/Eff003/EPOS_Eff_V0.root";
+effile = "/eos/cms/store/group/phys_heavyions/ddesouza/DATA/EPOS_Eff_V0.root";
 TFile *fileeff = TFile::Open(Form("%s",effile.Data()));
 if(!fileeff->IsOpen()){cout << "cannot find the file of efficiency" << endl; }else{cout << "eff file founded" << endl;}
 fileeff->GetObject("K0s_eff", effhisto_K0s);
