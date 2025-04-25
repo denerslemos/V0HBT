@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 
-
 from math import *
 import os.path
 import glob
 import time
 import optparse
-
 
 Nmix = 20
 vzmix = 2.0

@@ -20,7 +20,7 @@ g++ hbtV0.C hbt.h `root-config --libs` `root-config --cflags` -o executable.exe
 ```
 Submit jobs:
 ```
-python submit_new.py
+python3 submit_new.py
 ```
 
 After jobs are done, we merge all histograms using HADD (example for V0loose):
