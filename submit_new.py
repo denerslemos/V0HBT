@@ -226,7 +226,7 @@ a = sec//60//60//24
 b = (sec//60//60)%24
 c = (sec//60)%60
 d = sec%60
-print "Execution Time:   "+str(int(a))+" days   "+str(int(b))+" hours   "+str(int(c))+" minutes   "+str(d)+" seconds"'''
+print ("Execution Time:   "+str(int(a))+" days   "+str(int(b))+" hours   "+str(int(c))+" minutes   "+str(d)+" seconds")'''
     f.write(command_lines)
     f.close()
     os.system('chmod 777 run.py')
