@@ -121,7 +121,7 @@ cout << "Delta Vz: "+mix_vtx_z << endl;
 
 if(isMC){cout << "Running with MC" << endl;}else{cout << "Running with Data" << endl;}
 
-TFile *file_reweight = TFile::Open("/afs/cern.ch/work/d/ddesouza/Eff/reweight/Vtx_reweight.root");
+TFile *file_reweight = TFile::Open("/eos/cms/store/group/phys_heavyions/ddesouza/DATA/Vtx_reweight.root");
 
 if(isMC && !usematrix){
 
