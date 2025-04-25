@@ -8,7 +8,7 @@ command_lines = '''universe   = vanilla
 getenv     = True
 executable = test_y.sh
 +JobFlavour           = "tomorrow"
-requirements = (OpSysAndVer =?= "CentOS7")
+requirements = ((OpSysAndVer =?= "AlmaLinux9") && (CERNEnvironment =?= "qa"))
 RequestCpus = 2
 '''
 

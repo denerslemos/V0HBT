@@ -164,7 +164,7 @@ nocutev->Fill(1);
 
 if (i!=0 && (i%100000)==0 ){
 double alpha = (double) i;
-cout << " Running --> i = " << i << ", this is: "<< std::setprecision(3) << ((alpha/nev) * 100)  << "%" << endl;
+cout << " Running --> i = " << i << ", this is: " << ((alpha/nev) * 100)  << "%" << endl;
 }
 
 //apply filters
