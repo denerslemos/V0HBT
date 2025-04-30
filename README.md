@@ -16,7 +16,7 @@ Compile:
 cd V0HBT
 g++ hbtV0.C hbt.h `root-config --libs` `root-config --cflags` -o executable.exe
 ```
-Submit jobs:
+Go to the ```submit_newX.py``` and change the paths in lines 5 and 6. Then submit jobs:
 ```
 python3 submit_newX.py
 ```
