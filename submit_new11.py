@@ -142,23 +142,23 @@ start = time.time()\n'''
     if i == 'MB8':
         command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/pPb/dataMB8pPb/pPb_MB8_'+str(inn)+'.root' \n'''
     if i == 'HM0120':
-        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/Pbp/dataHM0120pPb/pPb_HM0120_'+str(inn)+'.root' \n'''
+        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/pPb/dataHM0120pPb/pPb_HM0120_'+str(inn)+'.root' \n'''
     if i == 'HM0150':
-        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/Pbp/dataHM0150pPb/pPb_HM0150_'+str(inn)+'.root' \n'''
+        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/pPb/dataHM0150pPb/pPb_HM0150_'+str(inn)+'.root' \n'''
     if i == 'HM1':
-        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/Pbp/dataHM1pPb/pPb_HM1_'+str(inn)+'.root' \n'''
+        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/pPb/dataHM1pPb/pPb_HM1_'+str(inn)+'.root' \n'''
     if i == 'HM2':
-        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/Pbp/dataHM2pPb/pPb_HM2_'+str(inn)+'.root' \n'''
+        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/pPb/dataHM2pPb/pPb_HM2_'+str(inn)+'.root' \n'''
     if i == 'HM3':
-        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/Pbp/dataHM3pPb/pPb_HM3_'+str(inn)+'.root' \n'''
+        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/pPb/dataHM3pPb/pPb_HM3_'+str(inn)+'.root' \n'''
     if i == 'HM4':
-        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/Pbp/dataHM4pPb/pPb_HM4_'+str(inn)+'.root' \n'''
+        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/pPb/dataHM4pPb/pPb_HM4_'+str(inn)+'.root' \n'''
     if i == 'HM5':
-        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/Pbp/dataHM5pPb/pPb_HM5_'+str(inn)+'.root' \n'''
+        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/pPb/dataHM5pPb/pPb_HM5_'+str(inn)+'.root' \n'''
     if i == 'HM6':
-        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/Pbp/dataHM6pPb/pPb_HM6_'+str(inn)+'.root' \n'''
+        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/pPb/dataHM6pPb/pPb_HM6_'+str(inn)+'.root' \n'''
     if i == 'HM7':
-        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/Pbp/dataHM7pPb/pPb_HM7_'+str(inn)+'.root' \n'''
+        command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/pPb/dataHM7pPb/pPb_HM7_'+str(inn)+'.root' \n'''
     if i == 'Pbp/MB1':
         command_lines += '''file='/eos/cms/store/group/phys_heavyions/ddesouza/DATA/PUstd/Pbp/dataMB1Pbp/Pbp_MB1_'+str(inn)+'.root' \n'''
     if i == 'Pbp/MB2':
